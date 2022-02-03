@@ -1,0 +1,15 @@
+section {
+    width: 500px;
+    border: 10px solid royalblue;
+    padding: 20px;
+    margin: 50px;
+    background-color: palegoldenrod;
+    border-radius: 5%;
+}
+/* #picture {
+    max-width: 15%;
+    width: 15%;
+    height: 15%;
+    border: 5px solid palegreen;
+    border-radius: 5%;
+} */

@@ -1,0 +1,18 @@
+.bannerStore img{
+    width: 100%;
+    display: block;
+}
+.imageCircles {
+    text-align: center;
+    background-color: #8e8e8e;
+}
+.imageCircles img {
+    width: 20%;
+    margin: 50px 25px;
+    border: 15px solid #444444;
+    border-radius: 50%;
+}
+main {
+    width: 1024px;
+    margin: 0 auto;
+}
