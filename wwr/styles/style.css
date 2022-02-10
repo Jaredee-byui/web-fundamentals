@@ -4,8 +4,8 @@
   --accent1-color: #ce2029;
   --accent2-color: #fcfafc;
 
-  --heading-font: Georgia, serif;
-  --paragraph-font: Verdana, Helvetica, times;
+  --heading-font: Georgia, serif, Times;
+  --paragraph-font: Verdana, Helvetica, Times, serif;
 
   --headline-color-on-white: #004a8f; /* headlines on a white background */
   --headline-color-on-color: #fcfafc; /* headlines on a colored background */
@@ -35,9 +35,9 @@
 #hero-img {
   width: 100%;
 }
-#logo_link {
+/* #logo_link {
   padding-top: 5px;
-}
+} */
 nav a {
   text-align: center;
   color: var(--accent2-color);
@@ -144,7 +144,8 @@ h4 {
   padding-top: 10px;
 }
 .logo {
-  width: 80px;
+  width: 100px;
+  padding-top: 5px;
 }
 .rivers-card {
   margin: 200px 0;
@@ -156,5 +157,5 @@ h4 {
   margin: 200px 0;
 }
 .card-img {
-  border: 10px solid var(--accent1-color);
+  border: 5px solid var(--accent1-color);
 }
