@@ -93,7 +93,10 @@ p {
 .accent2{
   background-color: var(--accent2-color);
 }
-
+h3.colored{
+  background-color: var(--paragraph-background-color);
+  color: var(--paragraph-color-on-color);
+}
 p.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
@@ -172,4 +175,14 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+
+#mainPage img {
+  max-width: 50%;
+}
+#firstChild img {
+  max-width: 50%;
+}
+#secondChild img {
+  max-width: 50%;
 }
