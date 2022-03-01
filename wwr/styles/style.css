@@ -176,6 +176,7 @@ h4 {
   color: var(--accent2-color);
   font-size: 0.8em;
   padding-bottom: 15px;
+  text-decoration: none;
 }
 .icon {
   width: 80px;
