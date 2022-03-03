@@ -317,7 +317,7 @@ h4 {
   #background {
       display: none;
   }
-  .mountains, .msg {
+  .mountains, .rivers, .msg, .rivermsg {
       width: 80%;
       display: block;
       margin: 0 auto;
