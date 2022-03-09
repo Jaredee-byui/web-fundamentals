@@ -78,12 +78,25 @@
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
   border-radius: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 #q-and-a p{
   border: 5px solid var(--accent1-color);
   border-radius: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+#feedback {
+  background-color: antiquewhite;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: .5em;
+  display: none;
 }
 nav {
   display: flex;
@@ -156,6 +169,50 @@ h2 {
 h4 {
   color: var(--accent2-color);
 }
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+form li + li {
+  margin-top: 1em;
+}
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+button {
+  margin-left: .5em;
+}
+.button {
+  padding-left: 90px;
+}
+.moveDown {
+  margin-top: 3em;
+}
 .home-title {
   color: var(--accent2-color);
   font: var(--heading-font);
@@ -226,13 +283,13 @@ h4 {
 .rivermsg p {
   color: var(--accent2-color);
   font-size: 0.8em;
-  padding-bottom: 15px;
+  /* padding-bottom: 15px; */
 }
 .rivermsg a {
   text-align: center;
   color: var(--accent2-color);
   text-decoration: none;
-  padding: 15px;
+  padding: 5px;
   border-radius: 5px;
 }
 .rivermsg a:hover {

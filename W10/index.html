@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W10 Practice</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        form {
+            max-width: 40rem;
+        }
+        form label,
+        form input,
+        form textarea,
+        form button {
+            display: block;
+            width: 20rem;
+            margin: 0;
+            
+        }
+        form input,
+        form textarea,
+        form button {
+            padding: 0.75rem;
+        }
+        form input,
+        form textarea {
+            margin-bottom: 0.75rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form action="thankyou.html">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="name" autofocus>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <label for="phone">Phone Number</label>
+        <input type="text" name="phone" id="phone">
+        <label for="hometown">Hometown</label>
+        <input type="text" name="hometown" id="hometown">
+        <label for="fcolor">Favorite Color</label>
+        <input type="text" name="fcolor" id="fcolor">
+        <!-- <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" placeholder="Your ad here" autofocus>
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" placeholder="Your ad here">
+
+        <label for="comment">Comments</label>
+        <textarea name="comment" id="comment" placeholder="Eat at In-and-Out"></textarea> -->
+
+        <button type="submit">Send all the data you have entered</button>
+    </form>
+</body>
+</html>
