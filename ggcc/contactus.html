@@ -20,7 +20,26 @@
             </nav>
           </header>
           <main class="home-grid">
-
+            <div id="feedback"></div>
+              <form action="/my-handling-form-page" method="post">
+                <ul>
+                  <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name">
+                  </li>
+                  <li>
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="user_email">
+                  </li>
+                  <li>
+                    <label for="msg">Message:</label>
+                    <textarea name="user_message" id="msg"></textarea>
+                  </li>
+                  <li class="button">
+                    <button type="submit">Submit the message</button>
+                  </li>
+                </ul>
+              </form>
           </main>
           <footer>
             <h3>Global Grilled Cheese Coalition! &copy; 2022- Jared Ellis</h3>
