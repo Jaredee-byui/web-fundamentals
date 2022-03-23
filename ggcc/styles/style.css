@@ -71,8 +71,64 @@
   border-radius: 15px
 }
 
+#historySection {
+  display: grid;
+  grid-template-columns: 1fr 800px;
+}
+#infoSection {
+  display: grid;
+  grid-template-columns: 1fr 800px;
+}
+#infoText {
+  grid-column: 1/2;
+}
+#infoText h3 {
+  text-shadow: 2px 1px 1px gray;
+}
+#infoText ul {
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+#infoText li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#historyText {
+  grid-column: 1/2;
+  margin: 25px;
+}
+#historyText h3 {
+  text-shadow: 2px 1px 1px gray;
+}
+#historyText p {
+  text-align: left;
+}
+#infoImage {
+  grid-column: 2/3;
+  margin: 15px auto;
+}
+#infoImage img{
+  width: 600px;
+  border-radius: 10px;
+  box-shadow: 2px 1px 1px gray;
+}
+#historyImage {
+  grid-column: 2/3;
+}
+#historyImage h4 {
+  background-color: var(--primary-color);
+  color: var(--accent1-color);
+  padding: 15px;
+  border-radius: 10px;
+  margin: 15px;
+}
 
-
+#historyImage img {
+  width: 600px;
+  border-radius: 10px;
+  box-shadow: 2px 1px 1px gray;
+}
 #stingerSection p{
   background-color: var(--primary-color);
   width: fit-content;
@@ -81,9 +137,15 @@
   color: #f9f9f9;
   border-radius: 15px
 }
+h1 {
+  margin: 25px auto;
+  text-align: center;
+  color: var(--secondary-color);
+}
 nav {
   display: flex;
   justify-content: space-around;
+  
 }
 nav a {
   text-align: center;
@@ -102,6 +164,8 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 footer h3 {
   color: var(--accent2-color);
@@ -140,6 +204,9 @@ header {
   background-color: var(--nav-background-color);
   display: grid;
   grid-template-columns: 150px auto;
+  /* border-radius: 10px; */
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .icon {
@@ -154,7 +221,7 @@ header {
 
 
 @media screen and (max-width: 900px) {
-  main.home-grid {
+  main.home-grid, #infoSection, #historySection {
       display: block;
       height: auto;
   }
@@ -165,7 +232,9 @@ header {
       display: block;
       padding: 15px;
   }
-  
+  #infoSection img, #historySection img{
+    width: 100%;
+  }
   
   #background {
       display: none;
