@@ -73,11 +73,11 @@
 
 #historySection {
   display: grid;
-  grid-template-columns: 1fr 800px;
+  grid-template-columns: 1fr 1fr;
 }
 #infoSection {
   display: grid;
-  grid-template-columns: 1fr 800px;
+  grid-template-columns: 1fr 1fr;
 }
 #infoText {
   grid-column: 1/2;
@@ -155,7 +155,7 @@ nav a {
 }
 nav a:hover {
   background-color: var(--nav-hover-background-color);
-  color: var(--accent2-color);
+  color: var(--accent1-color);
 }
 footer {
   background-color: var(--secondary-color);
